@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Custom warm, tactile craft palette */
+  --color-cream: #FDFBF9;
+  --color-sand: #F6F1EA;
+  --color-linen: #EDE5D9;
+  --color-charcoal: #2C2621;
+  --color-mocha: #594D43;
+  --color-wood: #826E5D;
+  --color-clay: #B68A75;
+  --color-soft-sage: #9AB097;
+  --color-soft-blush: #E6C2BA;
+  --color-soft-ocean: #7B9FA3;
+  --color-soft-pink: #F5E6E3;
+}
+
+/* Base styling to establish the warm tactile mood across the site */
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Linen texture look */
+.linen-bg {
+  background-color: var(--color-sand);
+  background-image: radial-gradient(rgba(0,0,0,0.015) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Custom smooth transitions for hovering and interactive components */
+.transition-soft {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

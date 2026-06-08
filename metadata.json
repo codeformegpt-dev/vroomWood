@@ -1,0 +1,6 @@
+{
+  "name": "Wooden Sea Automata Workshop",
+  "description": "An organic, story-driven showcase for David's handcrafted wooden sea animal automata and kinetic sculptures, with seamless paths to explore the craft and purchase on Etsy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
